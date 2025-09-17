@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Garbage System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">♻️ Smart Garbage</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="report.html">Report</a></li>
+        <li><a href="admin-login.html">Admin</a>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Smart Garbage System</h1>
+      <p>Towards a cleaner and smarter city 🌍</p>
+      <a href="report.html" class="btn">Report Garbage</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <h2>Why Smart Garbage?</h2>
+    <div class="feature-cards">
+      <div class="card">
+        <i class="fas fa-recycle"></i>
+        <h3>Eco-Friendly</h3>
+        <p>Promotes sustainable waste management for a healthier environment.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Track Issues</h3>
+        <p>Report garbage bins with live location for faster response.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-users"></i>
+        <h3>Community Driven</h3>
+        <p>Empowering citizens to actively participate in city cleanliness.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to the Smart City Authority.</p>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> support@smartgarbage.com</p>
+      <p><i class="fas fa-phone"></i> +91 98765 XX210</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Smart Garbage System | Designed for Smart Cities 🌱</p>
+  </footer>
+
+  <!-- Firebase SDKs -->
+<<!-- Firebase SDK v8 -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+<!-- Config + Logic -->
+<script src="firebase.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
